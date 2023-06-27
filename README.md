@@ -1,6 +1,20 @@
 # WineQuality
-The data was downloaded from UCI Machine Learning Repository.
+The dataset was from kaggle representing various features a wine has.
 
-The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, the reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
+These features determine the best quality of wine that can be produced.
 
-These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines.
+Features:
+Type - The type of wine, i.e., red or white.
+Fixed acidity - The set of low volatility organic acids such as malic, lactic, tartaric, or citric acids
+Volatile acidity - A measure of the wine's gaseous acids that contributes to the smell and taste of vinegar in wine.
+Citric acid - A weak organic compound 
+Residual sugar - The sugar left over in wine following fermentation
+Chlorides - A major contributor to the saltiness
+Free sulfur dioxide - Those available to react and thus exhibit both germicidal and antioxidant properties
+Total sulfur dioxide -  The portion of SO2 that is free in the wine plus the portion that is bound to other chemicals in the wine, such as aldehydes, pigments, or sugars
+Density - Holding alcohol level constant
+pH - Acidity
+Sulphate -  AntiOxidants
+Alcohol - Density of alcohol
+Quality -Wine quality based on the above features
+Best quality - The Data that will be tested against
